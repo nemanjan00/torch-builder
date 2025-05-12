@@ -1,6 +1,6 @@
 # torch-builder
 
-Set of scripts to build PyTorch wheels for sm_75 (Nvidia Tegra T4).
+Set of scripts to build PyTorch wheels for sm_75 (Nvidia Tegra T4) and aarch64 (arm64).
 
 ## Prerequisites
 
