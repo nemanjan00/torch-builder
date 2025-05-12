@@ -2,6 +2,8 @@
 
 Set of scripts to build PyTorch wheels for sm_75 (Nvidia Tegra T4) and aarch64 (arm64).
 
+I wanted to make sure built torch wheels are compatible sith SwarmUI so I used SwarmUI's docker image as a base, but, it will probably work with any Ubuntu based image aswell.
+
 ## Prerequisites
 
 - Docker
