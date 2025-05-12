@@ -6,7 +6,6 @@ I wanted to make sure built torch wheels are compatible sith SwarmUI so I used S
 
 ## Table of contents
 
-
 <!-- vim-markdown-toc GFM -->
 
 * [Prerequisites](#prerequisites)
