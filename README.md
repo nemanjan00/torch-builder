@@ -4,6 +4,17 @@ Set of scripts to build PyTorch wheels for sm_75 (Nvidia Tegra T4) and aarch64 (
 
 I wanted to make sure built torch wheels are compatible sith SwarmUI so I used SwarmUI's docker image as a base, but, it will probably work with any Ubuntu based image aswell.
 
+## Table of contents
+
+
+<!-- vim-markdown-toc GFM -->
+
+* [Prerequisites](#prerequisites)
+* [Building container it can be used in](#building-container-it-can-be-used-in)
+* [Notes](#notes)
+
+<!-- vim-markdown-toc -->
+
 ## Prerequisites
 
 - Docker
@@ -31,3 +42,7 @@ RUN apt install cuda-toolkit-11-8 -y
 RUN echo 'export PATH=/usr/local/cuda/bin:$PATH' | tee /etc/profile.d/cuda.sh
 RUN echo 'export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH' | tee -a /etc/profile.d/cuda.sh
 ```
+
+## Notes
+
+AI is glorified stats, deal with it... 
